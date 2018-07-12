@@ -1,0 +1,52 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "style",
+        "src": "./source/app.css"
+      },
+      {
+        "type": "script",
+        "src": "./source/app.js"
+      }
+    ]
+  },
+  "preview": {
+    "handlers": [
+      {
+        "options": ["_default"],
+        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options":{
+    "properties":{
+      "policyText":{
+        "title":"Text for the policy",
+        "type":"string",
+        "format":"textarea",
+        "default":"By using this website, you agree that we and our partners may set cookies for purposes such as customising content and advertising.",
+         "order": 1
+
+      },
+      "acceptButton":{
+        "title":"Agree Button Text",
+        "type":"string",
+        "default":"I Understand",
+        "order": 2
+
+      },
+      "opacity":{
+        "default":70,
+        "title": "Opacity",
+        "type":"number",
+        "format":"slider",
+        "minimum":60,
+        "maximum":100,
+        "spep":1,
+        "order": 3
+      }
+
+    }
+  }
+}
