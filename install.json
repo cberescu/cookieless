@@ -26,7 +26,7 @@
         "type":"string",
         "format":"textarea",
         "default":"By using this website, you agree that we and our partners may set cookies for purposes such as customising content and advertising.",
-         "order": 1
+        "order": 1
 
       },
       "acceptButton":{
