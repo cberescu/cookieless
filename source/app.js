@@ -36,10 +36,10 @@
     element = INSTALL.createElement({selector: 'body', method: 'append'}, element)
 
     // Set the app attribute to your app's dash-delimited alias.
-    element.setAttribute('app', 'cookiless')
+    element.setAttribute('app', 'cookieless')
     element.style.zIndex = getMaxZIndex() + 1
 
-    var ckElement = document.createElement('cookiless-div')
+    var ckElement = document.createElement('cookieless-div')
 
     ckElement.className = 'ckcontent'
     ckElement.style.opacity = options.opacity / 100
