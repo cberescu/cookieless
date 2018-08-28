@@ -24,8 +24,8 @@
   function hideAlert (e) {
     e.preventDefault()
     element.style.display = 'none'
-    document.cookie = 'cookieless=1; expires=Thu, 18 Dec 2050 12:00:00 UTC'
-    localStorage.cookieless = 1
+    document.cookie = 'coockiless=1; expires=Thu, 18 Dec 2050 12:00:00 UTC'
+    localStorage.coockiless = 1
   }
 
   // updateElement runs every time the options are updated.
