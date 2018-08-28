@@ -31,7 +31,7 @@
   // updateElement runs every time the options are updated.
   // Most of your code will end up inside this function.
   function updateElement () {
-    if (localStorage.cookieless) return
+    if (localStorage.coockiless) return
 
     element = INSTALL.createElement({selector: 'body', method: 'append'}, element)
 
