@@ -25,13 +25,15 @@
     e.preventDefault()
     element.style.display = 'none'
     document.cookie = 'coockiless=1; expires=Thu, 18 Dec 2050 12:00:00 UTC'
-    localStorage.coockiless = 1
+    if (localStorage) {
+      localStorage.coockiless = 1
+    }
   }
 
   // updateElement runs every time the options are updated.
   // Most of your code will end up inside this function.
   function updateElement () {
-    if (localStorage.coockiless) return
+    if (localStorage && localStorage.coockiless) return
 
     element = INSTALL.createElement({selector: 'body', method: 'append'}, element)
 
