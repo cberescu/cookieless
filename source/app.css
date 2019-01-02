@@ -1,25 +1,22 @@
-/* Set the app attribute to your app's dash-delimited alias. */
 cloudflare-app[app="cookiless"] {
  position: fixed;
- width:100%;
- bottom:0;
- left:0;
+ width: 100%;
+ bottom: 0;
+ left: 0;
  z-index: 10000;
  line-height: 24px;
 }
 
-/* Use native elements when you'd like to inherit some styles from the page. */
 cloudflare-app[app="cookiless"] cookiless-div {
-  width:100%;
+  width: 100%;
   background-color: #000;
-  color:#fff;
-  padding:10px;
+  color: #fff;
+  padding: 10px;
   text-align: center;
   display: block;
 }
 cloudflare-app[app="cookiless"] cookiless-div .iAccept {
   cursor: pointer;
   margin-left: 10px;
-  color:#159CD8;
-
+  color: #159CD8;
 }
