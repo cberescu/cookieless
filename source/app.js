@@ -5,6 +5,9 @@
 
   if (!window.addEventListener) return // Check for IE9+
 
+  // Prevent the cookie banner from being displayed within iFrames
+  if (window.frameElement) return
+
   var options = INSTALL_OPTIONS
   var element
 
